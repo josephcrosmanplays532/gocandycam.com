@@ -1,6 +1,4 @@
 node_modules
 .tmp
 .sass-cache
-app/components
-dist
 *.DS_Store
