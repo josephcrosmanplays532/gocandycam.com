@@ -1,0 +1,15 @@
+{
+  "name": "site-v2-proto",
+  "version": "0.0.0",
+  "dependencies": {
+    "sass-bootstrap": "~2.3.0",
+    "requirejs": "~2.1.4",
+    "modernizr": "~2.6.2",
+    "jquery": "1.8.0",
+    "responsejs": "~0.7.7",
+    "jquery-dropkick": "~1.0.0",
+    "jquery-icheck": "*",
+    "fitvids": "~1.0.2"
+  },
+  "devDependencies": {}
+}
