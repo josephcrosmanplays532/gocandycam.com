@@ -1,8 +1,8 @@
 Options +FollowSymlinks
 RewriteEngine On
 
+RewriteRule ^dist/(.*)$ $1
+
 RewriteCond %{HTTPS} !=on
 RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
 RewriteRule ^ http://%1%{REQUEST_URI} [R=301]
-
-RewriteRule ^dist/(.*)$ $1
