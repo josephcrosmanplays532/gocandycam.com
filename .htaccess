@@ -7,8 +7,6 @@ RewriteCond %{HTTPS} !=on
 RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
 RewriteRule ^ http://%1%{REQUEST_URI} [R=301]
 
-# If the URI is not .htm and doesn't have any additonal params, try .htm
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^(?![^/]+\.html)([^/]+)$ $1.html [L,R=302]
-# Adding the R flag causes the URI to be rewritten in the browser rather than just internally
+RewriteRule ^(.*)$ $1.html
