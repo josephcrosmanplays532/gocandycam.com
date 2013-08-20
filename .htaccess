@@ -1,7 +1,7 @@
 Options +FollowSymlinks
 RewriteEngine On
 
-RewriteRule ^(/)?$ dist [L]
+RewriteRule ^(.*)$ dist/$1 [L]
 
 RewriteCond %{HTTPS} !=on
 RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
