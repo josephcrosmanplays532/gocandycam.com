@@ -5,9 +5,4 @@ RewriteCond %{HTTPS} !=on
 RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
 RewriteRule ^ http://%1%{REQUEST_URI} [R=301, L]
 
-RewriteRule ^$ /index.html
-RewriteRule ^dist$ /dist/
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_URI} !^/dist/
-RewriteRule ^(.*)$ /dist/$1
+RewriteRule ^dist/(.*)$ $1
