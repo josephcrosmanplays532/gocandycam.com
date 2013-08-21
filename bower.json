@@ -9,7 +9,8 @@
     "responsejs": "~0.7.7",
     "jquery-dropkick": "~1.0.0",
     "jquery-icheck": "*",
-    "fitvids": "~1.0.2"
+    "fitvids": "~1.0.2",
+    "respond": "~1.2.0"
   },
   "devDependencies": {}
 }
