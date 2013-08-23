@@ -41,7 +41,7 @@ $break-billboard:   2000px;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    @include transform(translateZ(0));
+    -webkit-font-smoothing: antialiased;
 }
 
 a{
@@ -62,7 +62,7 @@ html{
     background-size: 80%;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .cf:before,
