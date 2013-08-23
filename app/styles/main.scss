@@ -34,6 +34,19 @@ $break-billboard:   2000px;
   font-weight: 700;
   src: local('Roboto Bold'), local('Roboto-Bold'), url(http://themes.googleusercontent.com/static/fonts/roboto/v9/d-6IYplOFocCacKzxwXSOLO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
 }
+.chromeframe {
+    display: block !important;
+    z-index: 9000 !important;
+    padding: 2em 1em;
+    text-align: center;
+    width: 100%;
+    background: #c00;
+    color: #fff;
+    font-weight: 600;
+    strong, a {
+        text-decoration: underline;
+    }
+}
 
 *{
     margin: 0;
