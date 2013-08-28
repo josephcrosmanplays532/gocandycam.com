@@ -11,7 +11,7 @@
         <meta name="author" content="CandyCam">
         <meta name="viewport" content="width=device-width">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="stylesheet" href="styles/feb850c4.main.css">
+        <link rel="stylesheet" href="styles/main.css">
 
         <!--[if lt IE 9]>
         <script src="components/respond/respond.min.js"></script>
@@ -27,18 +27,21 @@
           }]
         }'
     >
+        <!--[if lt IE 9]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
 
         <div id="splash">
-            <img id="splash__loader" src="images/global/e6c3485c.CandyCam_brandmarkAnim.gif">
+            <img id="splash__loader" src="images/global/CandyCam_brandmarkAnim.gif">
         </div>
 
         <div class="sheet">
 
             <section class="page-nav">
                 <header class="sheet page-nav__interior">
-                    <a href="/"><img class="page-nav__logo" src="images/global/4f87a879.logo_noTag.png"></a>
+                    <a href="/"><img class="page-nav__logo" src="images/global/logo_noTag.png"></a>
                     <nav class="nav">
-                        <img class="nav__activate" src="images/global/b3d825b5.navButton.png">
+                        <img class="nav__activate" src="images/global/navButton.png">
                         <ul class="nav__items">
                             <li class="nav__item"><a href="index.html">Home</a>
                             <li class="nav__item"><a href="about.html">About</a>
@@ -61,8 +64,8 @@
                 </header>
                 <div class="media hero">
                     <img
-                        data-src0="images/news/09cb82e9.news_hero_mobile.jpg"
-                        data-src768="images/news/2b020b3a.news_hero_desktop.jpg"
+                        data-src0="images/news/news_hero_mobile.jpg"
+                        data-src768="images/news/news_hero_desktop.jpg"
                     >
                     <!--
                     <canvas data-dir="images/news/animations" data-name="newsFrame" data-ext="jpg" data-frames="6" class="zoetrope hero__bg hero__bg--animation" height="650" width="500" id="news__hero-bg">
@@ -81,7 +84,7 @@
 
             <section class="timeline">
                 <div class="timeline__entry timeline__entry--start">
-                    <img class="timeline__dot" src="images/news/49643db2.timelineCap.png">
+                    <img class="timeline__dot" src="images/news/timelineCap.png">
                     <span class="timeline__present">
                         The Present Day
                     </span>
@@ -370,10 +373,6 @@
             </section>
         </div><!-- end #sheet -->
 
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
-
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             var _gaq=[['_setAccount','UA-35585208-2'],['_trackPageview']];
@@ -382,6 +381,8 @@
             s.parentNode.insertBefore(g,s)}(document,'script'));
         </script>
 
-        <script data-main="scripts/8b640877.main" src="components/requirejs/require.js"></script>
+        <!-- build:js scripts/main.js -->
+        <script data-main="scripts/main" src="components/requirejs/require.js"></script>
+        <!-- endbuild -->
 </body>
 </html>

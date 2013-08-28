@@ -11,7 +11,7 @@
         <meta name="author" content="CandyCam">
         <meta name="viewport" content="width=device-width">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="stylesheet" href="styles/feb850c4.main.css">
+        <link rel="stylesheet" href="styles/main.css">
 
         <!--[if lt IE 9]>
         <script src="components/respond/respond.min.js"></script>
@@ -27,18 +27,21 @@
           }]
         }'
     >
+        <!--[if lt IE 9]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
 
         <div id="splash">
-            <img id="splash__loader" src="images/global/e6c3485c.CandyCam_brandmarkAnim.gif">
+            <img id="splash__loader" src="images/global/CandyCam_brandmarkAnim.gif">
         </div>
 
         <div class="sheet">
 
             <section class="page-nav">
                 <header class="sheet page-nav__interior">
-                    <a href="/"><img class="page-nav__logo" src="images/global/4f87a879.logo_noTag.png"></a>
+                    <a href="/"><img class="page-nav__logo" src="images/global/logo_noTag.png"></a>
                     <nav class="nav">
-                        <img class="nav__activate" src="images/global/b3d825b5.navButton.png">
+                        <img class="nav__activate" src="images/global/navButton.png">
                         <ul class="nav__items">
                             <li class="nav__item"><a href="index.html">Home</a>
                             <li class="nav__item highlight"><a href="about.html">About</a>
@@ -61,8 +64,8 @@
                 </header>
                 <div class="media hero">
                     <img
-                        data-src0="../images/about/56570490.about_hero_mobile.jpg"
-                        data-src768="/images/about/c9774e31.about_hero_desktop.jpg"
+                        data-src0="../images/about/about_hero_mobile.jpg"
+                        data-src768="/images/about/about_hero_desktop.jpg"
                     >
                 </div>
                 <footer class="text">
@@ -81,7 +84,7 @@
             <section class="pod pod--dark-blue">
                 <div class="media">
                     <img
-                        data-src0="../images/about/54b7768d.about_sectHead-craftsmen_mobile.jpg"
+                        data-src0="../images/about/about_sectHead-craftsmen_mobile.jpg"
                     >
                 </div>
                 <footer class="text">
@@ -97,8 +100,8 @@
             <section class="pod pod--black">
                 <div class="media">
                     <img
-                        data-src0="../images/about/e19f05a5.about_sectHead-jointheranks_mobile.jpg"
-                        data-src641="/images/about/6f02bd83.about_sectHead-jointheranks_desktop.jpg"
+                        data-src0="../images/about/about_sectHead-jointheranks_mobile.jpg"
+                        data-src641="/images/about/about_sectHead-jointheranks_desktop.jpg"
                     >
                 </div>
                 <footer class="text">
@@ -127,7 +130,7 @@
                     </ul>
                 </footer>
                 <a href="contact.html" class="read-more read-more--white read-more--float--bottom">
-                    <img class="read-more__arrow read-more__arrow--blue" src="../images/global/a18555a4.pageRedirectArrow.png">
+                    <img class="read-more__arrow read-more__arrow--blue" src="../images/global/pageRedirectArrow.png">
                     <span class="read-more__text">See all contact information.</span>
                 </a>
             </section>
@@ -143,10 +146,6 @@
 
         </div><!-- #sheet -->
 
-        <!--[if lt IE 7]>
-            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-        <![endif]-->
-
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
             var _gaq=[['_setAccount','UA-35585208-2'],['_trackPageview']];
@@ -155,6 +154,8 @@
             s.parentNode.insertBefore(g,s)}(document,'script'));
         </script>
 
-        <script data-main="scripts/8b640877.main" src="components/requirejs/require.js"></script>
+        <!-- build:js scripts/main.js -->
+        <script data-main="scripts/main" src="components/requirejs/require.js"></script>
+        <!-- endbuild -->
 </body>
 </html>

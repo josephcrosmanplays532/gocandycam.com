@@ -11,7 +11,7 @@
         <meta name="author" content="CandyCam">
         <meta name="viewport" content="width=device-width">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-        <link rel="stylesheet" href="styles/feb850c4.main.css">
+        <link rel="stylesheet" href="styles/main.css">
         <style>
             .swipe {
             overflow: hidden;
@@ -43,17 +43,21 @@
           }]
         }'
     >
+        <!--[if lt IE 9]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
         <div id="splash">
-            <img id="splash__loader" src="images/global/e6c3485c.CandyCam_brandmarkAnim.gif">
+            <img id="splash__loader" src="images/global/CandyCam_brandmarkAnim.gif">
         </div>
 
     	<div class="sheet">
 
             <section class="page-nav">
                 <header class="sheet page-nav__interior">
-                    <a href="/"><img class="page-nav__logo" src="images/global/4f87a879.logo_noTag.png"></a>
+                    <a href="/"><img class="page-nav__logo" src="images/global/logo_noTag.png"></a>
                     <nav class="nav">
-                        <img class="nav__activate" src="images/global/b3d825b5.navButton.png">
+                        <img class="nav__activate" src="images/global/navButton.png">
                         <ul class="nav__items">
                             <li class="nav__item"><a href="index.html">Home</a>
                             <li class="nav__item"><a href="about.html">About</a>
@@ -76,8 +80,8 @@
             	</header>
                 <div class="media hero">
                     <img
-                        data-src0="images/skyhook/a2dda0dd.skyhook_hero_mobile.jpg"
-                        data-src768="images/skyhook/2e647253.skyhook_hero_desktop.jpg"
+                        data-src0="images/skyhook/skyhook_hero_mobile.jpg"
+                        data-src768="images/skyhook/skyhook_hero_desktop.jpg"
                     >
                 </div>
             	<footer class ="text">
@@ -93,18 +97,17 @@
 	         <section class="pod pod--grey">
 	         	<div class="media">
 	         		<img
-	         			data-src0="images/skyhook/11b1e771.skyhookAnatomy_mobile.jpg"
-                        data-src768="images/skyhook/7b42040b.skyhookAnatomy_desktop.jpg"
+	         			data-src0="images/skyhook/skyhookAnatomy_mobile.jpg"
+                        data-src768="images/skyhook/skyhookAnatomy_desktop.jpg"
                         >
                 </div>
-               <header class="pod__header pod__header--nospace ">
-            			Platform Overview
-    			</header>
+
     			<footer class="text">
-	    			<p>
-                        The Skyhook is an eight-line robotic camera platform suspended from four anchor points.
-	    				<br><br>
-	    				Filmmakers can maneuver smoothly throughout the entirety of a three-dimensional space, capturing complex shots easily.
+	    			<header class="text__title">
+                        Platform Overview
+                    </header>
+                    <p>
+                        The Skyhook is an eight-line robotic camera platform suspended from four anchor points. Filmmakers can maneuver smoothly throughout the entirety of a three-dimensional space, capturing complex shots easily.
 	    			</p>
 	    		</footer>
 
@@ -184,14 +187,14 @@
             <section class="pod pod--grey">
                 <div class="media">
                     <img
-                        data-src0="images/skyhook/ec993627.skyhook_sectHead-cinematicfreedom_mobile.jpg"
-                        data-src768="images/skyhook/8f1cd52d.skyhook_sectHead-cinematicfreedom_desktop.jpg"
+                        data-src0="images/skyhook/skyhook_sectHead-cinematicfreedom_mobile.jpg"
+                        data-src768="images/skyhook/skyhook_sectHead-cinematicfreedom_desktop.jpg"
                         >
                 </div>
-               <header class="pod__header pod__header--nospace ">
-                        Cinematic Freedom
-                </header>
                 <footer class="text">
+                    <header class="text__title">
+                        Cinematic Freedom
+                    </header>
                     <p>
                         The SkyHook Cinema takes filmmakers to new levels of freedom and simplicity. Combining the functionality of cranes, dollies, tracks, and sliders, it frees videographers to focus on getting the perfect shot. With its overhead suspension and programmable flight paths, the SkyHook platform makes choreographed scenes and hard-to-capture shots easier to execute than ever before.
                     </p>
@@ -201,14 +204,15 @@
             <section class="pod pod--grey">
                 <div class="media">
                     <img
-                        data-src0="images/skyhook/c1dc3466.skyhook_sectHead-devfriendly_mobile.jpg"
-                        data-src768="images/skyhook/dc2873a8.skyhook_sectHead-devfriendly_desktop.jpg"
+                        data-src0="images/skyhook/skyhook_sectHead-devfriendly_mobile.jpg"
+                        data-src768="images/skyhook/skyhook_sectHead-devfriendly_desktop.jpg"
                         >
                 </div>
-               <header class="pod__header pod__header--nospace ">
-                        Developer Friendly
-                </header>
+
                 <footer class="text">
+                    <header class="text__title">
+                        Developer Friendly
+                    </header>
                     <p>
                         We're making an interface that we're proud of, but we realize that it may not be perfect for every situation. In an effort to make our platform as user friendly as possible, we've decided to create an open access API, enabling developers to control the platform with a WiFi device of their choosing. We want to increase creativity, not constrain it.
                     </p>
@@ -216,10 +220,10 @@
             </section>
 
             <section class="pod pod--grey">
-               <header class="pod__header pod__header--nospace ">
-                        Quick Specifications
-                </header>
                 <footer class="text">
+                    <header class="text__title">
+                        Quick Specifications
+                    </header>
                     <p>
                         <b>target price:</b> under $20k<br>
                         <b>operation area:</b> 60'x60'x40'<br>
@@ -246,7 +250,7 @@
                     </ul>
                 </footer>
                 <a href="contact.html" class="read-more read-more--white read-more--float--bottom">
-                    <img class="read-more__arrow read-more__arrow--blue" src="../images/global/a18555a4.pageRedirectArrow.png">
+                    <img class="read-more__arrow read-more__arrow--blue" src="../images/global/pageRedirectArrow.png">
                     <span class="read-more__text">See all contact information.</span>
                 </a>
             </section>
@@ -259,7 +263,9 @@
                     2013 CandyCam LLC, All Rights Reserved
                 </div>
             </footer>
-		<script data-main="scripts/8b640877.main" src="components/requirejs/require.js"></script>
+		<!-- build:js scripts/main.js -->
+		<script data-main="scripts/main" src="components/requirejs/require.js"></script>
+		<!-- endbuild -->
 	</body>
 </html>
 
